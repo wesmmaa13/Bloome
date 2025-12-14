@@ -1,0 +1,99 @@
+#checkbox{
+    display: none;
+}
+body {
+    margin: 0;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #3b0f3e;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #dfcddf;
+}
+
+.icons {
+    position: absolute;
+    right: 40px;
+    top: 10px;
+    display: flex;
+    gap: 20px;
+
+
+}
+
+.icons img {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.icons img:hover {
+    transform: scale(1.15);
+}
+ .btn {
+    background-color: #4e5a5b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 70px;
+}
+
+.btn:hover {
+
+    background-color: #cac9a8;
+}
+.urunsinifi{
+    padding: 20px 150px ;
+    
+}
+img {
+    border-radius: 5px;
+}
+.center-video {
+    display: block;
+    margin: 0 auto;   
+    width: 70%;     
+    height: auto;
+}
